@@ -57,7 +57,7 @@ table {
 body {
 	font-size: 1em;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
-	color: #333;
+	color: #2c4000;
 }
 
 /* MY STYLES */
@@ -80,15 +80,16 @@ body {
 
 .top-navagation h1 {
 	font-size: 2em;
-	font-weight: 300;
+	font-weight: bold;
 	margin-top: 15px;
+
 }
 
 /* NAVAGATION LINKS FORMATTING */
 
 .top-navagation .links {
 	float: right;
-	color: #838994;
+	color: #2c4000;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	margin-top: 12px;
@@ -97,6 +98,11 @@ body {
 .top-navagation .links li {
 	display: inline-block;
 	margin-left: 25px;
+}
+
+.top-navagation .links li:hover{
+	color: #677501;
+	cursor: pointer;
 }
 
 /* INTRODUCTION SECTION */
@@ -144,6 +150,53 @@ body {
 }
 
 /* ABOUT SECTION */
+
+.about {
+	width:50%;
+	display: inline-block;
+}
+
+.about > .content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 38em;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+}
+
+.about h1 {
+	margin-top: 4rem;
+	font-size: 2em;
+}
+
+.about h4 {
+	margin-top: 1rem;
+	font-size: 1.30em;
+}
+
+.about p {
+	margin-top: 1rem;
+}
+
+.about .photo {
+	float: right;
+	width: .75rem;
+	margin-top: 4rem;
+}
+
+/* LISTS */
+
+.bands {
+  list-style: none; 
+}
+
+.activites > li,
+.bands > li {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin-top: .5rem;
+}
 
 /* LOCATION AND CONTACT SECTION */
 
