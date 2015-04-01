@@ -289,3 +289,26 @@ body {
 .foot .github {
 	color: #6cc644;
 }
+
+
+
+
+
+
+/* PORTFOLIO FORMAT */
+
+.work {
+	text-align: center;
+	background-color: #a1a5a4;
+}
+
+.work h1 {
+	margin-top: 4rem;
+	font-size: 2em;
+}
+
+.work hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+  margin: 1.313rem 0;
+}
