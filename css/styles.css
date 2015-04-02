@@ -70,6 +70,7 @@ body {
 	position: fixed;
 	width:100%;
 	z-index: 9999;
+	top: 0;
 }
 
 .top-navagation > .content {
@@ -240,6 +241,7 @@ body {
     overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
+    clear: both;
 }
 
 .foot hr {
@@ -297,17 +299,80 @@ body {
 
 /* PORTFOLIO FORMAT */
 
-.work {
+.NYTIMES,
+.Karma {
 	text-align: center;
 }
 
-.work h1 {
-	margin-top: 4rem;
+.NYTIMES h1,
+.Karma h1 {
+	margin-top: 8rem;
 	font-size: 2em;
 }
 
-.work hr {
+.NYTIMES hr,
+.Karma hr {
   border: 0;
   border-top: 1px solid #eaebec;
   margin: 1.313rem 0;
+}
+
+.NY1 {
+	float: left;
+	width: 50%;
+}
+
+.NY2 {
+	float: right;
+	width: 50%;
+}
+
+.workphoto {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.test {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.Karma {
+	clear: both;
+}
+
+.Rebuild li {
+    display: inline-block;
+    width: 33.3333333%;
+    float:left;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    text-align: center;
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 764px) {
+    .about .content, 
+    .about .photo {
+    	float: none;
+    	width: 100%;
+    }
+    }
+}
+
+a:link, a:visited { 
+    color: #2c4000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:link, a:active { 
+    color: #677501;
+    text-decoration: none;
+    cursor: pointer;
 }
