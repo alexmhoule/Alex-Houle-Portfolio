@@ -276,19 +276,19 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-.foot .twitter {
+.foot .twitter .links li:hover{
     color: #55acee;
 }
 
-.foot .facebook {
+.foot .facebook .links li:hover{
     color: #4c66a4;
 }
 
-.foot .linkedin {
+.foot .linkedin .links li:hover{
 	color: #0976b4;
 }
 
-.foot .github {
+.foot .github .links li:hover{
 	color: #6cc644;
 }
 
@@ -352,7 +352,7 @@ body {
     overflow: hidden;
     padding-bottom: 5rem;
     text-align: center;
-
+}
 
 /* RESPONSIVENESS */
 
@@ -362,8 +362,23 @@ body {
     	float: none;
     	width: 100%;
     }
-    }
+
+	.NY1,
+	.NY2 {
+		float: none;
+		width:100%;
+	}
+
+	.Rebuild li {
+		float: none;
+		width:100%;
+	}
+
+	.top-navagation h1 {
+		font-size: 1.3em;
+		}
 }
+
 
 a:link, a:visited { 
     color: #2c4000;
