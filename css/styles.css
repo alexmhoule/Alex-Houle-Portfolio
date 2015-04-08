@@ -49,6 +49,10 @@ table {
 
 /* END RESET */
 
+* {
+	box-sizing: border-box;
+}
+
 .content {
 	padding: 0 0.938rem;
 	margin: 0 auto;
