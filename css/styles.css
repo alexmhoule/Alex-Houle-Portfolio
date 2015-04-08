@@ -363,6 +363,10 @@ body {
     	width: 100%;
     }
 
+    .about .content {
+    	margin: auto;
+    }
+
 	.NY1,
 	.NY2 {
 		float: none;
