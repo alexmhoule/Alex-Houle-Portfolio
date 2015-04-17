@@ -358,16 +358,9 @@ body {
     	margin: auto;
     }
 
-	.NY1,
-	.NY2 {
-		float: none;
-		width:100%;
-	}
-
-	.Rebuild li {
-		float: none;
-		width:100%;
-	}
+    .about .photo {
+    	margin-top: 1rem;
+    }
 
 	.top-navagation h1 {
 		font-size: 1.3em;
