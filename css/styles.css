@@ -87,7 +87,6 @@ body {
 	font-size: 2em;
 	font-weight: bold;
 	margin-top: 15px;
-
 }
 
 /* NAVAGATION LINKS FORMATTING */
@@ -365,6 +364,10 @@ body {
 	.top-navagation h1 {
 		font-size: 1em;
 		}
+
+	.top-navagation .links {
+		font-size: .5em;
+	}
 }
 
 
