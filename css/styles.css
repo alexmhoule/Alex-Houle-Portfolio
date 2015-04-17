@@ -264,7 +264,7 @@ body {
 .foot .icons > li {
     border-radius: 1.25rem;
     width: 2rem;
-    height: 1rem;
+    height: 2.5rem;
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
@@ -303,59 +303,46 @@ body {
 
 /* PORTFOLIO FORMAT */
 
-.NYTIMES,
-.Karma {
+.nyTIMES,
+.karma,
+.streetfighter {
 	text-align: center;
 }
 
-.NYTIMES h1,
-.Karma h1 {
-	margin-top: 8rem;
+.nyTIMES h1,
+.karma h1,
+.streetfighter h1 {
+	margin-top: 6rem;
 	font-size: 2em;
 }
 
-.NYTIMES hr,
-.Karma hr {
+.nyTIMES hr,
+.karma hr,
+.streetfighter hr {
   border: 0;
   border-top: 1px solid #eaebec;
-  margin: 1.313rem 0;
+  margin: 1.313rem auto;
+  max-width: 650px;
 }
 
-.NY1 {
-	float: left;
-	width: 50%;
+.karma p,
+.streetfighter p {
+	margin-top: 1rem;
 }
 
-.NY2 {
-	float: right;
-	width: 50%;
-}
-
-.workphoto {
+.karmaPhoto {
 	width: 100%;
-	height: 100%;
-	text-align: center;
+	margin-top: 2rem;
+} 
+
+.nyHack {
+	width: 100%;
 	margin-top: 2rem;
 }
 
-.test {
+.streetfighterPhoto {
 	width: 100%;
-	height: 100%;
-	text-align: center;
-	margin-top: 4rem;
-}
-
-.Karma {
-	clear: both;
-}
-
-.Rebuild li {
-    display: inline-block;
-    width: 33.3333333%;
-    float:left;
-    overflow: hidden;
-    padding-bottom: 5rem;
-    text-align: center;
+	margin-top: 2rem;
 }
 
 /* RESPONSIVENESS */
