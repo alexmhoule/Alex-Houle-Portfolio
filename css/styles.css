@@ -378,11 +378,6 @@ a:link, a:visited {
     cursor: pointer;
 }
 
-a:link, a:hover { 
-    color: #a1a5a4;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 a:link {
 	color: #2c4000;
