@@ -308,7 +308,8 @@ body {
 .streetfighter,
 .shoppingApp,
 .fizzbuzz,
-.hotCold {
+.hotCold,
+.quizApp {
 	text-align: center;
 }
 
@@ -317,7 +318,8 @@ body {
 .streetfighter h1,
 .shoppingApp h1,
 .fizzbuzz h1,
-.hotCold h1 {
+.hotCold h1,
+.quizApp h1 {
 	margin-top: 6rem;
 	font-size: 2em;
 }
@@ -327,7 +329,8 @@ body {
 .streetfighter hr,
 .shoppingApp hr,
 .fizzbuzz hr,
-.hotCold hr {
+.hotCold hr,
+.quizApp hr {
   border: 0;
   border-top: 1px solid #eaebec;
   margin: 1.313rem auto;
@@ -338,7 +341,8 @@ body {
 .streetfighter p,
 .shoppingApp p, 
 .fizzbuzz p,
-.hotCold p {
+.hotCold p,
+.quizApp p {
 	margin-top: 1rem;
 }
 
@@ -368,6 +372,11 @@ body {
 }
 
 .hotColdAppPhoto {
+	width: 100%;
+	margin-top: 2rem;
+}
+
+.quizAppPhoto {
 	width: 100%;
 	margin-top: 2rem;
 }
